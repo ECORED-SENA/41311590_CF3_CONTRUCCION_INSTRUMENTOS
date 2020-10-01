@@ -1,0 +1,31 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+ 
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "revision",
+    "title": "1. Revisión",
+    "breadcrumb": ["Inicio","tema 1"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "revision",
+        "title": "1.1 Revisión técnica de ítems e indicadores",
+        "anchor": "11"
+      },
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "revision",
+        "title": "1.2 Revisión metodológica de ítems e indicadores",
+        "anchor": "12"
+      }
+    ]
+   }
+]
